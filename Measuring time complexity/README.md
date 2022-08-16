@@ -32,7 +32,7 @@ Now, we know **"m"** will also **stay constant (not changing)**, remove it, we w
 In short we are concerned about the value which keeps growing !\
 So, The Big-O time complexity for this program is of Order n or **O(n)**.
 
-__Single loop is an example of O(n), It is like where you don't know the **exact index of element** so you have to **loop throw all (n)**, if you know the exact index then it will be **constant O(1)**
+__Single loop is an example of O(n), It is like where you don't know the **exact index of element** so you have to **loop through all (n)**, if you know the exact index then it will be **constant O(1)**
 The more the computation power your program uses, the more it will take time.__
 
 _update Coming_
