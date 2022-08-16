@@ -1,25 +1,25 @@
 # Big O Notation :
-&emsp;**Big O notation**, also called “[asymptotic analysis](https://www.tutorialspoint.com/data_structures_algorithms/asymptotic_analysis.htm)” 
-It actually tells us how much time to run and space required (memory) for your program, So, &emsp;we have to take care of both running time and the memory (RAM) our program uses during execution.
+**Big O notation**, also called “[asymptotic analysis](https://www.tutorialspoint.com/data_structures_algorithms/asymptotic_analysis.htm)” 
+It actually tells us how much time to run and space required (memory) for your program, So,we have to take care of both running time and the memory (RAM) our program uses during execution.
  
-&emsp;How many operations a sorting algorithm takes to completely sort a very large collection of data. This is a measure of efficiency and is how &emsp;you can directly compare one algorithm to another.
+How many operations a sorting algorithm takes to completely sort a very large collection of data. This is a measure of efficiency and is how &emsp;you can directly compare one algorithm to another.
  
 ### When to use ? :
-&emsp;When building a simple app with only a few pieces of data to work through, this sort of analysis is unnecessary. But when working with very &emsp;**large amounts of data, like a social media site or a large e-commerce site with many customers and products, small differences between &emsp;algorithms can be significant**.
+When building a simple app with only a few pieces of data to work through, this sort of analysis is unnecessary. But when working with very &emsp;**large amounts of data, like a social media site or a large e-commerce site with many customers and products, small differences between &emsp;algorithms can be significant**.
  
 ### O(n) :
-&emsp;Big O notation ranks an algorithms’ efficiency **O(n)** where, \
-&emsp;&emsp;O is the order of function or growth rate, \
-&emsp;&emsp;n is the length of array (0,1,2,3,4,5 ,..................,n) ,
+Big O notation ranks an algorithms’ efficiency **O(n)** where, \
+O is the order of function or growth rate, \
+n is the length of array (0,1,2,3,4,5 ,..................,n) ,
  
 ### Example :
  
->&emsp;_NOTE : Always pick the the terms with higher power ignore the smaller , coefficients, and constants._
+_NOTE : Always pick the the terms with higher power ignore the smaller , coefficients, and constants._
  
-&emsp;**12n^5 - 6n^3 + 5** => 12 , 6 are coefficients, and 5 is constant here.\
+**12n^5 - 6n^3 + 5** => 12 , 6 are coefficients, and 5 is constant here.
  
-&emsp;In above equation **_select the one with high time complexity_** **( 12n^5)** ignore **6n^3 + 5**, because the higher matters. We are left with **n^5** \
-&emsp;Therefore, this function would have an **order growth rate**, or a **“big O”** rating, of **O(n^5)** .  
+In above equation **_select the one with high time complexity_** **( 12n^5)** ignore **6n^3 + 5**, because the higher matters. We are left with **n^5** 
+Therefore, this function would have an **order growth rate**, or a **“big O”** rating, of **O(n^5)** .  
  
  
 ### Some common Algorithms :
@@ -28,11 +28,11 @@ It actually tells us how much time to run and space required (memory) for your p
 &emsp;- Heap Sort\
 &emsp;- Merge Sort
  
-&emsp;They runs at rate of **O(n log n)**.\
-&emsp;Most software use **Quick sort by Default**. Some other sorting algos **Bubble / Insertion / Selection Sort run at O(n²)**. \
-&emsp;So, they take **significantly longer time**
+They runs at rate of **O(n log n)**.\
+Most software use **Quick sort by Default**. Some other sorting algos **Bubble / Insertion / Selection Sort run at O(n²)**. \
+So, they take **significantly longer time**
  
->&emsp;NOTE : Select the algorithm according to your problem because you can't use the same algo for all problems. They have different time complexities for different problems, where they perform as best or worst.
+>NOTE : Select the algorithm according to your problem because you can't use the same algo for all problems. They have different time complexities for different problems, where they perform as best or worst.
  
 **Conclusion** You have to choose the algorithms according to time and space. Like how much time will the code take in execution and the &emsp;space (memory) required for it.
 So, with larger data sets you have to take care of both, and with small programs (data) they don't matter much.
